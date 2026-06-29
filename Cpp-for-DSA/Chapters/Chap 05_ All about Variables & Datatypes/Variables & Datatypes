@@ -1,0 +1,78 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    variable define 
+    int age = 24;
+    cout<<"Your age is : "<<age<<endl;
+    return 0;
+
+    declaration
+    
+    int age;
+    cout<<age<<endl;
+
+    definiiton
+    int age = 25;
+    cout<<age<<endl;
+
+    manipulation or updation 
+    age = 101;
+    cout<<age<<endl;
+
+
+
+    interger datatypes
+
+    int count = 12;
+     
+    // Float 
+    float share = 12.3;
+
+    // char
+    char alphabet = 'z'; // sure that when you create a char datatypes the value of char is must be in singequote ''
+
+    // double 
+    double weight = 56.69887;
+
+
+    //boolean
+    bool isMale = true ;
+    bool isChild = 1 ;
+    bool isFemale = false;
+    bool isGirls = 0;
+
+    cout << count << endl;
+    cout << share << endl;
+    cout << alphabet << endl; 
+    cout << weight << endl; 
+    cout << isMale << endl; 
+    cout << isChild << endl; 
+    cout << isFemale << endl; 
+    cout << isGirls << endl;
+
+
+
+    //checked the size of datatypes , whose data are stored 
+    int age = 15; 
+    cout << sizeof(age) << endl; // size of age is 4 Bits
+    return 0;
+
+
+
+    // Allowed this one 
+    {
+        int age = 10;
+    }
+    {
+        // not allowed 
+        int age = 45;
+        int age = 44;
+    }
+    {
+        int age = 56;
+    }
+
+    return 0;
+}
