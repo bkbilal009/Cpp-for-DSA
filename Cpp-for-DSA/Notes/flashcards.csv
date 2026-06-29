@@ -1,0 +1,64 @@
+What is the primary role of a programming language in relation to a computer?,It acts as a tool for programmers to communicate instructions to the machine.
+What is the only language that a computer's hardware can natively understand?,Binary language (format of zeros and ones).
+Which specific software component is responsible for converting C++ source code into a machine-understandable format?,The Compiler.
+What is the common file extension for an executable file in Windows generated after the compilation process?,The .exe extension.
+List one high-level benefit of using C++ for system development mentioned in the tutorial.,It provides high performance and efficient execution speed.
+"In the C++ compilation pipeline, what is the purpose of the 'Linking' stage?",It combines various object files and libraries into a single executable file.
+Which C++ header file must be included to utilize standard input and output streams like cin and cout?,$\text{#include <iostream>}$
+What does the code $\text{using namespace std;}$ allow a programmer to do?,It allows the use of standard library identifiers without the $\text{std::}$ prefix.
+What is considered the mandatory starting point of execution for every C++ program?,The $\text{int main()}$ function.
+"In C++, what do curly braces $\text{\{ \}}$ typically define within the code structure?",The scope or boundary of a block of code.
+What does a $\text{return 0;}$ statement at the end of the $\text{main}$ function signify to the Operating System?,The program has executed successfully without errors.
+"If a program returns a non-zero value (e.g., $\text{return -1;}$), what does this typically indicate?",The program encountered an error or failed during execution.
+"In C++, which keyword is used to display or print output to the console window?",$\text{cout}$
+What is the purpose of the $\text{endl}$ manipulator in an output statement?,It inserts a newline character and flushes the stream.
+What symbol is used in C++ to mark the termination of a statement?,The semicolon ( ; ).
+Term: Variable,Definition: A named storage location in memory used to hold data during program execution.
+Which C++ data type is specifically used for storing whole numbers (integers)?,$\text{int}$
+What is the standard memory size (in bytes) occupied by a $\text{char}$ data type in C++?,1 byte.
+"Which data type would you use to store a single letter or symbol, such as 'A' or '$'?",$\text{char}$
+How are character literals represented in C++ code to distinguish them from variable names?,"They are enclosed in single quotes (e.g., $\text{'a'}$)."
+What is the typical memory size of a $\text{float}$ data type in modern C++ systems?,4 bytes.
+Which data type is preferred for storing decimal numbers with higher precision and occupies 8 bytes of memory?,$\text{double}$
+The $\text{bool}$ data type in C++ can only hold which two values?,$\text{true}$ (often represented as 1) or $\text{false}$ (represented as 0).
+"In terms of memory addressing, why does a $\text{bool}$ occupy 1 byte (8 bits) even though it only needs 1 bit of information?",The byte is the smallest addressable unit of memory in a computer.
+Which C++ operator is used to determine the exact memory size of a data type or variable?,The $\text{sizeof()}$ operator.
+What happens to a local variable in C++ if it is declared but not initialized with a value?,"It contains a ""garbage value,"" which is unpredictable data from memory."
+"What is the difference between a variable ""declaration"" and a variable ""definition""?","Declaration introduces the name/type, while definition allocates memory and optionally assigns an initial value."
+Which keyword is used to accept user input from the keyboard in C++?,$\text{cin}$
+"In the statement $\text{cin >> marks;}$, what is the symbol $\text{>>}$ called?",The extraction operator.
+"In the statement $\text{cout << ""Hello"";}$, what is the symbol $\text{<<}$ called?",The insertion operator.
+How does an $\text{unsigned int}$ differ from a standard $\text{signed int}$?,"An $\text{unsigned int}$ only stores zero and positive values, allowing for a larger positive range."
+What is the mathematical formula for the maximum value an n-bit unsigned integer can hold?,$2^n - 1$
+The range of a signed n-bit integer is from $-2^{n-1}$ to _____.,$2^{n-1} - 1$
+What is the syntax for a single-line comment in C++?,Two forward slashes ( // ).
+Under what condition will the code block inside an $\text{if}$ statement execute?,It executes only if the provided condition evaluates to $\text{true}$.
+"When using an $\text{if-else}$ structure, when does the $\text{else}$ block execute?",It executes only when the preceding $\text{if}$ condition evaluates to $\text{false}$.
+"In an $\text{if-else if-else}$ chain, what happens after the first $\text{true}$ condition is found and its block is executed?","The rest of the conditions in the chain are skipped, and the program exits the structure."
+What is the term for placing one $\text{if}$ statement inside the body of another $\text{if}$ statement?,Nested If.
+What is the primary advantage of a $\text{switch}$ statement over multiple $\text{if-else}$ conditions for discrete values?,It is generally more readable and organized when comparing a single variable against many constants.
+"In a $\text{switch}$ statement, what is the role of the $\text{break}$ keyword?","It exits the switch block, preventing execution from continuing into subsequent cases."
+What occurs in a $\text{switch}$ statement if a $\text{case}$ matches but the $\text{break}$ keyword is missing?,"Fall-through behavior occurs, executing all following cases until a break or the end of the switch is reached."
+Which keyword in a $\text{switch}$ statement handles values that do not match any specified $\text{case}$?,$\text{default}$
+List two data types that are NOT allowed in the expression of a $\text{switch}$ statement in C++.,$\text{float}$ and $\text{string}$.
+What is the syntax for the Ternary Operator in C++?,$\text{condition ? expression_if_true : expression_if_false;}$
+"In C++, which control flow operator is often used as a shorthand replacement for simple $\text{if-else}$ statements?",The Ternary Operator ( ? : ).
+Why would a developer use a loop in C++ instead of writing the same line of code multiple times?,To handle repetitive tasks efficiently and reduce code redundancy.
+What are the three essential components defined within the parentheses of a standard $\text{for}$ loop?,"Initialization, Condition, and Updation."
+"In the $\text{for}$ loop execution flow, when does the 'Initialization' step occur?",It happens only once at the very beginning when the loop is first encountered.
+"In a $\text{for}$ loop, what is the immediate next step after the loop's body code finishes executing?","The Updation step (e.g., incrementing the loop counter)."
+What happens if the 'Condition' in a $\text{for}$ loop evaluates to $\text{false}$ on the very first check?,"The loop body never executes, and the program moves to the next line after the loop."
+What is the function of the $\text{break}$ keyword when used inside a loop?,It immediately terminates the loop and transfers control to the statement following the loop.
+What is the function of the $\text{continue}$ keyword when used inside a loop?,It skips the remainder of the current iteration and jumps to the next iteration (starting with the update step).
+"If a $\text{for}$ loop is written as $\text{for( ; ; )}$, what is the result?",It creates an infinite loop because there is no condition to terminate it.
+What does one complete cycle of a loop's execution called?,An iteration.
+How can you print a message that includes a variable value using $\text{cout}$?,"By chaining insertion operators, for example: $\text{cout << ""Age: "" << age << endl;}$"
+"In the context of the tutorial, why is C++ widely used in Game Development?",Due to its ability to provide low-level memory management and high performance.
+What is the primary difference between $\text{float}$ and $\text{double}$ precision?,$\text{double}$ can represent much larger numbers and more decimal places accurately than $\text{float}$.
+Which operator is used to check if two values are exactly equal in an $\text{if}$ condition?,The equality operator ( == ).
+"In C++, how do you represent the boolean value for ""true"" using an integer?",Any non-zero value (typically 1).
+"When using $\text{cin}$ to take a boolean input, what should the user type into the console for 'true'?",The integer 1.
+What is the purpose of the 'Preprocessing' stage in C++ compilation?,"It processes directives starting with #, like including header files and expanding macros."
+What does the expression $\text{i = i + 1}$ do inside a loop?,It increments the value of the variable $\text{i}$ by one in each iteration.
+Code Snippet: $\text{if(a > b) \{ cout << a; \} else \{ cout << b; \}}$,"This code prints the maximum of two numbers, $\text{a}$ and $\text{b}$."
+Why is it important to use different scopes (curly braces) for variables with the same name?,"To avoid ""redefinition"" errors by isolating the variables to specific blocks of code."
