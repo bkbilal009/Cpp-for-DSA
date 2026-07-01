@@ -1,0 +1,15 @@
+#include<iostream>
+
+int main(){
+    // declare variable without useing namespace std;
+    int age ;
+    std::cout << "Enter your age : ";
+    
+    // take input
+    std::cin >> age;
+    std::cout << "Your age is : " << age << std::endl;
+
+
+
+    return 0;
+}
